@@ -1,0 +1,26 @@
+运行这个项目的步骤：
+1 先在这个文件夹中打开cmd面板，输入  npm install 
+2 在cmd面板中执行 webpack 对资源进行打包
+3 在cmd面板中执行 npm run dev启动项目
+4 打开浏览器输入localhost:5008 查看效果
+目录结构如下：
+dist----webpack打包生成文件目录
+src-----项目源码文件
+	components----组件文件
+		account------登录相关组件目录
+		news---------新闻相关文件
+		shopcar------购物车相关文件
+		photo--------图片分享相关文件
+		subcom-------公共子组件目录（评论等）
+			comment.vue----评论子组件
+	kits----------js公共方法目录
+	app.vue-------项目初始化页面
+	mian.js-------项目入口文件
+statics---静态资源文件
+	css---静态CSS文件
+	imgs--静态图片文件
+	mock--http请求拦截文件夹（线上版本可以忽略）
+	mui---mui组件相关文件夹
+index1.html---项目模板
+package.json---包依赖关系文件
+webpack.config.js---webpack配置文件
